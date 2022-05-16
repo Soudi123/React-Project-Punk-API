@@ -12,11 +12,16 @@ import SearchBox from "./components/SearchBox/SearchBox";
 
 
 
+
 const App = () => {
  
 
+
+
+
+
     const cardListJSX=beers.map(list =>{
-        return<CardList name={list.name} imgURL={list.imgURL} description={list.description}></CardList>
+        return<CardList name={list.name} imgURL={list.image_url} description={list.description}></CardList>
     });
 //     const beersArray = beers.map((beer) => beer.name);
 //   const beersDescriptionArray = beers.map((beer) => beer.description);

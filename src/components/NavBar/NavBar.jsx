@@ -10,12 +10,12 @@ const NavBar = props => {
      <div className="nav-bar">
       <div className="nav-bar__content">
        
-      <p>search items</p>
+     
       <SearchBox
-        label={"beers"}></SearchBox>
-        <p className="nav-menu__items">search items</p>
-        <p className="nav-menu__items">range</p>
-        <p className="nav-menu__items">filtered items</p>
+        label={"beers"}>Search...</SearchBox>
+        <p className="nav-menu__items">high ABV</p>
+        <p className="nav-menu__items">Classic range</p>
+        <p className="nav-menu__items">Acidic</p>
       </div>
     </div>
   );

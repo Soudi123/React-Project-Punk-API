@@ -9,16 +9,19 @@
     border : 2px solid $color-black
 }
 .all-content{
-    display:flex
+    display:flex;
+    justify-content: space-between;
 }
 .navBar_container{
+    margin :4px;
+    padding:5px;
     border : 2px solid $color-black;
-    width: 30em;
+    width: 60 erm;
 height: 50rem;
 }
 .Container{  
     display:grid;
     grid-gap: 5px;
     grid-template-columns: repeat(3,1fr) ;
-     grid-template-rows: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
 }
