@@ -1,0 +1,24 @@
+@use "./assets/sass/variables" as *;
+.Title{
+    text-align: center;
+    text-decoration: none;
+    ;
+}
+.app{
+    display: flex;
+    border : 2px solid $color-black
+}
+.all-content{
+    display:flex
+}
+.navBar_container{
+    border : 2px solid $color-black;
+    width: 30em;
+height: 50rem;
+}
+.Container{  
+    display:grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(3,1fr) ;
+     grid-template-rows: repeat(3,1fr);
+}

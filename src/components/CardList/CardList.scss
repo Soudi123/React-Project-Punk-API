@@ -1,0 +1,9 @@
+@use "../../assets/sass/variables" as *;
+.cardList_content{
+    display: flex;
+    justify-content: center;
+
+    border: 4px solid $color-black;
+   margin: 6px;
+
+}
