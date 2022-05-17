@@ -1,0 +1,16 @@
+@use "../../assets/sass/variables"as *;
+
+.button {
+ 
+  border: solid 2px $color-pink;
+  cursor: pointer;
+  // background-color: $color-grey;
+  color: $color-red;
+  
+  padding: 0.5rem 1rem;
+  transition: all 0.1s ease-in-out;
+
+  &:hover {
+    background-color: darken($color-grey, 5%);
+  }
+}
