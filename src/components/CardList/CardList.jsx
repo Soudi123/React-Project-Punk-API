@@ -15,17 +15,7 @@ return (
     </div>
 );
 };
-// const CardList = ({beersDetails})=> {
-//     // const {imgURL,name, description} = props;
-//     const cardListJSX = beersDetails.map((beers) =>(
 
-//         <div className="BeerCards">
-        
-//         <p>{beers.name}</p>
-//         <p>{beers.description}</p>
-//     </div>)
-//     )
-//     return<div className="BeerCards_container">{cardListJSX}</div>
    
-// }
+
 export default CardList;

@@ -1,11 +1,12 @@
 @use "../../assets/sass/variables"as *;
 
-.button {
- 
+.filter-options-buttons{
+ padding: 2px;
+ margin: 2px;
   border: solid 2px $color-pink;
   cursor: pointer;
   // background-color: $color-grey;
-  color: $color-red;
+  color: $color-blue-violet;
   
   padding: 0.5rem 1rem;
   transition: all 0.1s ease-in-out;
