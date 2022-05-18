@@ -1,21 +1,32 @@
 @use "../../assets/sass/variables" as *;
 .cardList_content{
-    
+    background-color: $color-pink-light;
     display: flex;
    
 flex-direction: column;
 font-size: 12px;
     border: 4px solid $color-black;
    margin: 6px;
-   height: 25rem;
+   height: 29rem;
    .cardList_content__img{
-     max-width: 70px;
+     max-width: 50px;
      height: auto;
      margin: 5px;
      text-align: center;
 
    }
-
+   .cardList_content__name{
+       margin: 2px;
+       padding: 2px;
+    font-weight: bold;
+       color: $color-blue-violet;
+   }
+   .cardList_content__info{
+    margin: 2px;
+    padding: 2px;
+       font-size: xx-small;
+    
+   }
 }
 
    

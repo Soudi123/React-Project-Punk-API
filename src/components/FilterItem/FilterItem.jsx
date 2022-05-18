@@ -1,6 +1,6 @@
 import React from "react";
 import beers from "../../data/beers";
-import Button from "../Button/Button";
+import Button from "../Button/ButtonOptions";
 import "./FilterItem.scss";
 
 
