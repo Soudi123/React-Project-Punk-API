@@ -1,17 +1,22 @@
-@use "../../assets/sass/variables"as *;
+@use "../../assets/sass/variables" as *;
 
-.filter-options-buttons{
- padding: 2px;
- margin: 2px;
+.filter-options-buttons {
+  padding: 2px;
+  margin: 2px;
   border: solid 2px $color-pink;
   cursor: pointer;
   // background-color: $color-grey;
-  color: $color-blue-violet;
-  
+  background-color: $color-blue-violet;
+
   padding: 0.5rem 1rem;
   transition: all 0.1s ease-in-out;
 
   &:hover {
     background-color: darken($color-grey, 5%);
+  }
+
+  &--active {
+    background-color: pink;
+    border: 2px solid red;
   }
 }

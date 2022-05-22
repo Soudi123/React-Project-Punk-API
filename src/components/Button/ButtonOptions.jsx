@@ -1,22 +1,20 @@
 import "./ButtonOptions.scss";
 
 const ButtonOptions = ({ onClick, selected }) => {
-  const filters = ["High ABV (> 6.0%)","Classic Range","Acidic (PH < 4)"] ;
-  const ButtonOptionsJSX= filters.map((filter,index) => {
-    return( 
-    <button className="filter-options-buttons" key={"filter-options"+filter+index} value={filter}>
-       {filter}
-    </button>
+  const buttonNames = ["High ABV (> 6.0%)", "Classic Range", "Acidic (PH < 4)"];
+
+  const buttonsJSX = buttonNames.map((buttonName, index) => {
+    const buttonStyles = selected.includes(buttonName)
+      ? "filter-options-buttons filter-options-buttons--active"
+      : "filter-options-buttons";
+    return (
+      <button onClick={onClick} className={buttonStyles} key={"filter-options" + buttonName + index} id={buttonName}>
+        {buttonName}
+      </button>
     );
   });
-  return (
-   
-   <div>{ButtonOptionsJSX}</div>
-  
-    
-   
 
-  );
+  return <div>{buttonsJSX}</div>;
 };
 
 export default ButtonOptions;
